@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Time Complexity: O(n) --> Linear time
+
 void findNemo(vector<string> arr)
 {
     auto start = chrono::high_resolution_clock::now();
