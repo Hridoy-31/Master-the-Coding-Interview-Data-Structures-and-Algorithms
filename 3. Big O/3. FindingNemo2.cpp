@@ -11,6 +11,7 @@ void findNemo(vector<string> arr)
         if (i == "nemo")
         {
             cout << "Found Nemo !!!" << endl;
+            break;
         }
     }
     auto end = chrono::high_resolution_clock::now();
